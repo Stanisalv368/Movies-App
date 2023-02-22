@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  background: #e5e5e5;
+  font-family: "Inter", sans-serif;
+  min-height: 100vh;
+}
+
+#root {
+  max-width: 1110px;
+  margin: 0 auto;
+  background: #fff;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1100px;
+  height: 100%;
+  margin: 0 auto;
+  gap: 36px;
+  padding-top: 32px;
+  padding-bottom: 37px;
+  background: #fff;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.example {
+  margin: 20px 0;
+  margin-bottom: 20px;
+  padding: 30px 50px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.ant-input {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding: 9px 12px;
+  font-size: 16px;
+}
+
+.input {
+  width: calc(100% - 166px);
+  height: 40px;
+  margin: 0 auto;
+}
+
+.ant-pagination {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.ant-tabs-nav-wrap {
+  justify-content: space-around;
+}
+
+.ant-tabs-top > .ant-tabs-nav::before {
+  border: none;
+}
+.ant-space {
+  width: calc(100% - 166px);
+}
+
+@media (max-width: 430px) {
+  .input {
+    margin: 0 16px;
+    width: 388px;
+  }
+  .card-item {
+    width: 387px;
+  }
+  .img-box {
+    min-width: 60px;
+    height: 91px;
+    margin: 6px 13px 10px 10px;
+  }
+  .info-movies {
+    padding: 0;
+  }
+  .descriptionn {
+    position: absolute;
+    top: 107px;
+    left: 10px;
+    display: block;
+    padding-right: 130px;
+    width: 367px;
+  }
+  .ant-rate {
+    align-self: flex-end;
+    position: absolute;
+    top: 239px;
+  }
+  .genre {
+    max-height: 30px;
+    overflow: hidden;
+  }
+  .ant-rate-star {
+    margin-bottom: 10px;
+  }
+  .info-movies {
+    width: 280px;
+  }
+}

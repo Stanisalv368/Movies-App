@@ -1,0 +1,7 @@
+.ant-tabs-nav-wrap{
+    justify-content: space-around
+}
+
+.ant-tabs-top >.ant-tabs-nav::before{
+    border: none;
+}

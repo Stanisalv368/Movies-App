@@ -1,0 +1,78 @@
+.card-item {
+  width: 454px;
+  height: 281px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+  display: flex;
+  position: relative;
+}
+
+.info-movies {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 20px;
+  gap: 3px;
+  width: 270px;
+}
+
+.img-box {
+  min-width: 183px;
+  height: 100%;
+}
+
+.title {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #000000;
+  max-width: 200px;
+}
+
+.date {
+  font-size: 12px;
+  line-height: 22px;
+  color: #827e7e;
+}
+
+.descriptionn {
+  margin: 0;
+  font-size: 12px;
+  line-height: 22px;
+  color: #000000;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  flex-grow: 1;
+}
+
+.elipse-box {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 9px;
+  top: 12px;
+  border-radius: 100%;
+}
+.elipse-box-red {
+  border: 2px solid #e90000;
+}
+
+.elipse-box-orange {
+  border: 2px solid #e97e00;
+}
+
+.elipse-box-yelow {
+  border: 2px solid #e9d100;
+}
+
+.elipse-box-green {
+  border: 2px solid #66e900;
+}
+
+.rated {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5px;
+  font-size: 12px;
+}
