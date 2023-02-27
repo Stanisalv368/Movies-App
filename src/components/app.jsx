@@ -2,13 +2,13 @@ import React, { useEffect, useState } from "react";
 import debounce from "lodash.debounce";
 import { Input, Pagination, Tabs } from "antd";
 
-import MoviesServices from "../Services/MoviesServices";
+import MoviesServices from "../services/MoviesServices";
+import { GenresProvider } from "../context/GenresContext";
 
 import CardList from "./CardList/CardList";
 import InfoForm from "./InfoForm/InfoForm";
 import Spinner from "./Spinner/Spinner";
 import Spacee from "./Space/Space";
-import { GenresProvider } from "./GenresContext/GenresContext";
 
 const App = () => {
   const [movies, setMovies] = useState([]);

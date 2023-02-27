@@ -2,7 +2,7 @@ import React from "react";
 
 import "./Genre.css";
 
-import { GenresConsumer } from "../GenresContext/GenresContext";
+import { GenresConsumer } from "../../context/GenresContext";
 
 const Genres = ({ genre_ids }) => {
   return (
